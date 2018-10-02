@@ -1,3 +1,4 @@
+export { default as addArrayItems } from './reducers/addArrayItems';
 export { default as isFetching } from './reducers/isFetching';
 export { default as mergeArrays } from './reducers/mergeArrays';
 export { default as mergeObject } from './reducers/mergeObject';

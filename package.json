@@ -12,6 +12,7 @@
   },
   "scripts": {
     "build": "babel src --presets babel-preset-env --out-dir lib",
+    "commit": "git-cz",
     "lint": "eslint ./src/*",
     "test": "node scripts/test.js",
     "semantic-release": "semantic-release --no-ci -b $BUILDKITE_JOB_ID"
